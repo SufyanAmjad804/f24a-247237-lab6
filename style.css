@@ -29,6 +29,7 @@ main {
     border: 1px solid #ccc;
 }
 
+.ask,
 .card,
 .slip {
     background-color: white;
@@ -36,6 +37,24 @@ main {
     padding: 18px;
     border: 1px solid #ddd;
     border-radius: 6px;
+}
+
+input {
+    padding: 9px;
+    margin: 5px;
+}
+
+button {
+    padding: 9px 18px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
 }
 
 table {

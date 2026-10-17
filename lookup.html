@@ -16,6 +16,12 @@
     <main>
         <p id="status">Enter an item name and press Find.</p>
 
+        <section class="ask">
+            <label for="item">Item name:</label>
+            <input type="text" id="item">
+            <button id="find">Find</button>
+        </section>
+
         <section class="card" id="card">
             <h2>Item Card</h2>
             <p>Name: <span id="card-name"></span></p>
@@ -33,8 +39,7 @@
                         <th>Times</th>
                     </tr>
                 </thead>
-                <tbody id="slip">
-                </tbody>
+                <tbody id="slip"></tbody>
             </table>
 
             <p>Found: <span id="found">0</span></p>
