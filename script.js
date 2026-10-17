@@ -74,6 +74,7 @@ findButton.addEventListener("click", async function () {
     }
 
     drawSlip();
+    
   } catch (error) {
     status.textContent = "The server is not answering";
   } finally {
