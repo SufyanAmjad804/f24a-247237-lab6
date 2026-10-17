@@ -14,10 +14,31 @@
     </header>
 
     <main>
+        <p id="status">Enter an item name and press Find.</p>
+
         <section class="card" id="card">
             <h2>Item Card</h2>
             <p>Name: <span id="card-name"></span></p>
             <p>Price: Rs <span id="card-price"></span></p>
+        </section>
+
+        <section class="slip">
+            <h2>Shop Slip</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Price</th>
+                        <th>Times</th>
+                    </tr>
+                </thead>
+                <tbody id="slip">
+                </tbody>
+            </table>
+
+            <p>Found: <span id="found">0</span></p>
+            <p>Dearest: Rs <span id="dearest">0</span></p>
         </section>
     </main>
 

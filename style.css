@@ -23,12 +23,31 @@ main {
     padding: 20px;
 }
 
-.card {
+#status {
+    background-color: white;
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+
+.card,
+.slip {
     background-color: white;
     margin-top: 20px;
     padding: 18px;
     border: 1px solid #ddd;
     border-radius: 6px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
 }
 
 footer {
