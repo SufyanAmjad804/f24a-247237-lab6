@@ -45,6 +45,12 @@ findButton.addEventListener("click", async function () {
   findButton.disabled = true;
   cardName.textContent = "";
   cardPrice.textContent = "";
+  if (item === "") {
+  status.textContent = "undefined";
+  cardName.textContent = "";
+  cardPrice.textContent = "";
+  return;
+}
 
   try {
     const response = await fetch(
